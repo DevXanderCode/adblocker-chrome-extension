@@ -2,7 +2,7 @@
   "name": "AdBlock Extension",
   "description": "AdBlock extension in TypeScript!",
   "version": "1.0.0",
-  "manifest_version": 3,
+  "manifest_version": 2,
   "icons": {
     "16": "icon.png",
     "48": "icon.png",
@@ -13,7 +13,7 @@
     "default_title": "AdBlock Extension",
     "default_icon": "icon.png"
   },
-  "permissions": ["storage"],
+  "permissions": ["webRequest", "webRequestBlocking"],
   "options_page": "options.html",
   "background": {
     "service_worker": "background.js"
