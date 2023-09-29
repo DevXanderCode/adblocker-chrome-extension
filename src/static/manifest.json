@@ -8,13 +8,7 @@
     "48": "icon.png",
     "128": "icon.png"
   },
-  "action": {
-    "default_popup": "popup.html",
-    "default_title": "AdBlock Extension",
-    "default_icon": "icon.png"
-  },
-  "permissions": ["webRequest", "webRequestBlocking"],
-  "options_page": "options.html",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
   "background": {
     "service_worker": "background.js"
   },
